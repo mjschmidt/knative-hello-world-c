@@ -8,4 +8,6 @@ This is currently only half function, I don't have a lot of C experince so as of
 * While the Server responed when you call it, the way it returns the message is jacked up. What do you mean by jacked up you may ask? I will give an example of what I see from the terminal below when I run the C function locally in just a docker container, and then what I see when I run the C function from Knative.
   * asdf
   * asd
-
+## Another Approach
+There is this set of Go Libraries used for retrofitting C and C++ into the Go compiler. This could be explored, but we need to make sure the performace doesn't take too big of a hit.
+https://github.com/xlab/c-for-go
