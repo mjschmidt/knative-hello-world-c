@@ -41,5 +41,6 @@ docker push <your repo>/helloworld-c:<your tag>
 ```
 
 ## Another Approach
-There is this set of Go Libraries used for retrofitting C and C++ into the Go compiler. This could be explored, but we need to make sure the performace doesn't take too big of a hit.
+There is this set of Go Libraries used for retrofitting C and C++ into the Go compiler. This could be explored, but we need to make sure the performace doesn't take too big of a hit. This repo may be able to be used to instead build the final C container into a Go based container and simply run the C code in the GoLand Compiler
+
 https://github.com/xlab/c-for-go
